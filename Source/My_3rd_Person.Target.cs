@@ -10,10 +10,10 @@ public class My_3rd_PersonTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		
-		if (Target.Platform == UnrealTargetPlatform.Win64)
-		{
-			bUseLoggingInShipping = true;
-		}
+		// if (Target.Platform == UnrealTargetPlatform.Win64)
+		// {
+		// 	bUseLoggingInShipping = true;
+		// }
 		
 		ExtraModuleNames.AddRange( new string[] { "My_3rd_Person" } );
 	}
