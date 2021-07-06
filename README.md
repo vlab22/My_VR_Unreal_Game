@@ -6,7 +6,7 @@
 
 ---
 
-<table><tbody><tr><td>Week 4.3</td><td>Research</td></tr><tr><td>Week 4.4</td><td>Project / Char Controller / Level / HUD</td></tr><tr><td>Week 4.5</td><td>Collectibles / Components / Tools</td></tr><tr><td>Week 4.6</td><td>Collectibles Logic / Open Door / Door's Leds / Material dressing</td></tr><tr><td>Week 4.7</td><td>Adding Sfx / End Game</td></tr></tbody></table>
+<table><tbody><tr><td>Week 4.3</td><td>Research</td></tr><tr><td>Week 4.4</td><td>Starting a Project / Char Controller / Level / HUD</td></tr><tr><td>Week 4.5</td><td>Collectibles / Components / Tools</td></tr><tr><td>Week 4.6</td><td>Collectibles Logic / Open Door / Door's Leds / Material dressing</td></tr><tr><td>Week 4.7</td><td>Adding Sfx / End Game</td></tr></tbody></table>
 
 ## Learning Outcome 2
 
@@ -35,20 +35,22 @@ This was not written linearly too, some remarks/annotations were created during 
 *   First Release in 1998 with the game Unreal
 *   UnrealScript (UScript) and **UnrealEd** (a level editor)
 
-|  
- 
+| 
+![](../images/f8f8a975-5c10-46fb-a1ac-21a2803f6019.jpg)
 
-![](images/186ff446-396b-477e-94e4-23cdc81c1da4.jpeg)
+  
+  
+Figure 1 - UnrealEd (1998)
 
-Figure - UnrealEd (1998)
+ | 
 
-|
+![](../images/d41ea45e-6d21-4b5a-a6f4-8640c06c8f4b.png)
 
-![](images/2fb06d0d-93aa-4e1b-bed3-db705d0ac542.png)
+  
+  
+Figure 2 - Unreal 4.26 (2021)
 
-Figure - Unreal 4.26 (2021)
-
-|  
+ |
 | --- | --- |
 
 PS:
@@ -92,9 +94,9 @@ The Unreal official documentation is the "first stop" to start learning it. Does
 
 Before reading the documentation, I believe 99% of users install the Engine and try to "start doing things". I did the same and easily got lost.
 
-![](images/6e0a9a6e-b04d-4610-8fbe-9740bfb186a1.png)
+![](../images/3cf53299-5883-413f-8a5a-644fb22f9fcb.png)
 
-Figure - Lots f Templates
+Figure 3- Lots f Templates
 
 ### First Try
 
@@ -103,7 +105,7 @@ Figure - Lots f Templates
 3.  Ray Tracing Enabled
 4.  Starter Content Pack
 
-![](images/90611246-e0e2-46dc-8a24-d1ac3f9dae09.png)
+![](../images/a87c30ff-104c-4fed-bf62-b95c18fe7c02.png)
 
 ### Create Some Game Templates and Test Explore Them
 
@@ -112,7 +114,7 @@ Figure - Lots f Templates
 3.  Ray Tracing Disabled
 4.  Starter Content Pack
 
-![](images/978dfbe9-4874-4c18-aac7-97bd1f51cb18.png)
+![](../images/b8a4c706-0bed-438b-a832-f7186f9821ee.png)
 
 ## The IDE
 
@@ -133,20 +135,57 @@ My first try to open Visual Studio for UE4 was not satisfactory:
 *   [https://www.jetbrains.com/help/rider/Unreal_Engine__Before_You_Start.html#rider_ue_plugins](https://www.jetbrains.com/help/rider/Unreal_Engine__Before_You_Start.html)
     *   Instructions on how to use it
     *   Works great!
-*   (Mouse)
-*   Easy going how to understand the UI + Elements
 
-4
+## The Character Controller
 
-5
+The Third Person Template Project already has a character controller with enough nice features:
 
-6
+*   Character Controller
+    *   Humanoid Model
+    *   Animations (Idle, Walking, Jumping)
+    *   Input Handle (WASD Movement)
+    *   Camera Movement (Mouse)
 
-7
+## The Level
 
-# 5
+The Third Person Template Project already has some level structure:
 
-### a Collectable Item
+*   Floor
+*   Walls
+*   Stairs
+
+## The HUD
+
+*   [https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/QuickStart/](https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/QuickStart/)
+*   Using this as a guide is possible to create some HUD like:
+    *   Main Menu
+    *   In-Game HUD
+    *   Pause Menu
+
+### Creating the Main Menu
+
+*   [https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/HowTo...](https://docs.unrealengine.com/4.26/en-US/InteractiveExperiences/UMG/HowTo...)
+    *   Easy going how to understand the UI + Elements
+
+![](../images/140f05e3-b7c9-4a4c-b102-b0516ea40790.png)
+
+Figure 4 - Main Menu
+
+![](../images/311d5b2c-eebb-42ae-b9f3-93f1df358acf.png)
+
+Figure 5 - UMG Editor (HUD)
+
+![](../images/16492617-0714-4804-9a66-d212283a2e3b.png)
+
+Figure 6 - Button action to Fade in Effect Panel and Load a Scene (Blueprint)
+
+![](../images/fa296330-b5cc-471a-b0ab-aec9d2c278a5.gif)
+
+Figure 7 - Fade In-Out panel (GIF animation)
+
+# Week 4.5
+
+### Creating a Collectable Item
 
 Features:
 
@@ -172,9 +211,9 @@ From scratch (only for guidance)
     *   Fade Out And Disable
     *   Raise Event when touched by Player
 
-![](images/6ee4c087-0178-490f-b360-fc41d226218d.png)
+![](../images/df59062b-32f4-45ee-92ba-997b7108268d.png)
 
-Figure - Collectible Bp Structure
+Figure 8 - Collectible Bp Structure
 
 # Week 4.6
 
@@ -182,9 +221,9 @@ Figure - Collectible Bp Structure
 
 Even for a simple prototype, it's good to look through some "set dressing" features.With some research in the Unreal MarketPlace no "free" asset was found.
 
-![](images/5f998d4a-63dd-48b1-87d5-44090ae45040.png)
+![](../images/e81a4ad2-9381-4f03-bbd2-45a047796055.png)
 
-Figure - MArketplace
+Figure 9 - MArketplace
 
 So, some components were created.
 
@@ -194,13 +233,13 @@ So, some components were created.
 
 These Bps can be added to an Actor and be reusable (Designer Friendly)
 
-![](images/b6e86279-762e-4b02-b53e-80fc2fd8dfc6.png)
+![](../images/01d1b659-69cf-49e8-bb18-588c9094b6db.png)
 
-Figure - A Tween Component with some parameter
+Figure 10 - A Tween Component with some parameter
 
-![](images/73fc1166-6661-4c05-98bd-68d54158c1dc.gif)
+![](../images/087e387a-e2ca-4223-891b-28af4a1b8b40.gif)
 
-Figure - Tween Scale Elastic Ease Out Example
+Figure - Tween Scale Elastic Ease Out Example (GIF animation)
 
 ### Collectibles Logic
 
@@ -213,13 +252,13 @@ Figure - Tween Scale Elastic Ease Out Example
     *   Raise Event when all items have been collected
         *   Door Bp Open
 
-![](images/8f41db59-0bc3-462c-b3ea-49dfd09bd87f.png)
+![](../images/ef4413f4-0514-47cf-8800-644588154de6.png)
 
-Figure - Collectable Manager
+Figure 12 - Collectable Manager
 
-![](images/a1a43dc9-6f3e-4be2-96c2-347ada543cb1.gif)
+![](../images/17393912-f182-409a-982c-c6d3c689bcdb.gif)
 
-Figure - Getting Items and Opening the door
+Figure - Getting Items and Opening the door (GIF animation)
 
 ### Creating the Exit Door
 
@@ -262,9 +301,9 @@ Figure - Getting Items and Opening the door
 
 *   Added in the Run Animation, synchronized with the feet
 
-![](images/0ff2e216-9702-4142-bef7-a6ee76e0ac40.png)
+![](../images/9dd0e860-b867-4741-bef8-b542c8c45f4f.png)
 
-Figure - Built in Play Audio Event attached to the key frame
+Figure 14 - Built in Play Audio Event attached to the key frame
 
 *   Same for jump sound
 
@@ -278,13 +317,13 @@ _Door Opening Sfx_
 *   Re-using the _**DoorListenetAllCollected**_
 *   Plays the audio component attached to the door Bp
 
-![](images/6f68272f-4c55-48de-9859-967be15aa14a.png)
+![](../images/e9d6c88e-96da-4b7f-a85d-3c25a1a46cab.png)
 
-Figure - Structure Example
+Figure 15 - Structure Example
 
-![](images/f5747a55-26a3-4d3a-b44c-d3a777189e2a.png)
+![](../images/097ddce5-45e8-4f88-a848-1db524a1f277.png)
 
-Figure - Play Audio using Event
+Figure 16 - Play Audio using Event
 
 ### Building the game
 
@@ -292,7 +331,7 @@ Figure - Play Audio using Event
 *   [https://www.youtube.com/watch?v=4b8Q6DwqEKc](https://www.youtube.com/watch?v=4b8Q6DwqEKc)
     *   Video tutorial points some interesting fields to fill
 
-![](images/f28e4fc7-f4d9-40fa-a831-93149518a4fe.png)
+![](../images/318a8871-dfe7-4ed9-b27e-8fc278ccf7e1.png)
 
 # The Build
 
@@ -308,19 +347,19 @@ Some reusable Components and Functions
 
 #### Fade Out And Disable Actor (Component)
 
-![](images/8ac81036-c2c7-4212-9d4b-35692b3b5592.png)
+![](../images/bbad17eb-3d30-44c9-8d14-1a4ca3dca978.png)
 
-Figure - Figure - Fadeout and Disable Actor Component Bp
+Figure 17 - Figure 18 - Fadeout and Disable Actor Component Bp
 
 #### Disable Actor On Begin (Component)
 
-![](images/588c81e9-9709-44ce-aad6-9ad9470a9781.png)
+![](../images/2fecc1e4-8224-42b1-9262-4342f6e36680.png)
 
 #### Listener Level Loaded And Activate Actor
 
 *   AfterLevelLoaded\_Event is raised somewhere else, is not the responsibility of this Bp Component to deal with it.
 
-![](images/85918c74-6222-4620-83ee-b857704766f0.png)
+![](../images/8c7fbb58-df7c-47d2-b3dd-d632ca3ca39d.png)
 
 #### Tweens Components
 
@@ -340,8 +379,6 @@ Figure - Figure - Fadeout and Disable Actor Component Bp
 *   Set Actor Enable Collision
 *   Set Actor Hidden in Game
 
-![](images/467538f4-5302-41bf-a955-583f324a5f8d.png)
+![](../images/f64def96-ae7e-48c9-8e88-c8583d34e0f1.png)
 
 Figure - Blueprint flow
-
----
