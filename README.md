@@ -1,11 +1,6 @@
 ﻿# My\_3rd\_Person
 
-| Week 4.3 | Research |
-| --- | --- |
-| Week 4.4 | Project / Char Controller / Level / HUD |
-| Week 4.5 | Collectibles / Components / Tools |
-| Week  4.6 | Collectibles Logic / Open Door / Door's Leds / Material dressing |
-| Week 4.7 | Adding Sfx / End Game |
+<table><tbody><tr><td><strong>Week 4.3</strong></td><td><strong>Research</strong></td></tr><tr><td>Week 4.4</td><td>Project / Char Controller / Level / HUD</td></tr><tr><td>Week 4.5</td><td>Collectibles / Components / Tools</td></tr><tr><td>Week&nbsp; 4.6</td><td>Collectibles Logic / Open Door / Door's Leds / Material dressing</td></tr><tr><td>Week 4.7</td><td>Adding Sfx / End Game</td></tr></tbody></table>
 
 ## Learning Outcome 2
 
@@ -34,22 +29,20 @@ This was not written linearly too, some remarks/annotations were created during 
 *   First Release in 1998 with the game Unreal
 *   UnrealScript (UScript) and **UnrealEd** (a level editor)
 
-| 
+|  
+ 
+
 ![](images/ce4b1dcf-de71-450b-a0f5-131adbaf6092.jpeg)
 
-  
-  
 Figure - UnrealEd (1998)
 
- | 
+|
 
 ![](images/72b664cb-1904-4e1d-83af-34fb1579df1d.png)
 
-  
-  
 Figure - Unreal 4.26 (2021)
 
- |
+|  
 | --- | --- |
 
 PS:
