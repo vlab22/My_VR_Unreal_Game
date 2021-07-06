@@ -1,4 +1,8 @@
-﻿# My\_3rd\_Person
+﻿# Unreal Learning Outcome for Saxion's the Personal Portfolio 4
+
+### This doc was converted from the original docx file and some content was missing, so for the full content:
+
+*   [Victor Leao - 481212 - Unreal PP4.docx (https://1drv.ms/w/s!AgtgYYr28Kkgg44ea9TYCIbt-N602A?e=4S5sMe)](https://1drv.ms/w/s!AgtgYYr28Kkgg44ea9TYCIbt-N602A?e=4S5sMe)
 
 <table><tbody><tr><td><strong>Week 4.3</strong></td><td><strong>Research</strong></td></tr><tr><td>Week 4.4</td><td>Project / Char Controller / Level / HUD</td></tr><tr><td>Week 4.5</td><td>Collectibles / Components / Tools</td></tr><tr><td>Week&nbsp; 4.6</td><td>Collectibles Logic / Open Door / Door's Leds / Material dressing</td></tr><tr><td>Week 4.7</td><td>Adding Sfx / End Game</td></tr></tbody></table>
 
@@ -29,8 +33,7 @@ This was not written linearly too, some remarks/annotations were created during 
 *   First Release in 1998 with the game Unreal
 *   UnrealScript (UScript) and **UnrealEd** (a level editor)
 
-|  
- 
+|  
 
 ![](images/ce4b1dcf-de71-450b-a0f5-131adbaf6092.jpeg)
 
