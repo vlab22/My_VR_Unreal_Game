@@ -41,7 +41,7 @@ This was not written linearly too, some remarks/annotations were created during 
 - First Release in 1998 with the game Unreal
 - UnrealScript \(UScript\) and **UnrealEd** \(a level editor\)
 
-| ![](images/b5170c02-8259-4416-8995-682468dc34fc.jpeg)<br><br>Figure  \- UnrealEd \(1998\) | ![](images/e9643e48-0e68-4673-9837-4980bde89097.jpg)<br><br>Figure  \- Unreal 4\.26 \(2021\) |
+| ![](images/ce4b1dcf-de71-450b-a0f5-131adbaf6092.jpeg)<br><br>Figure  \- UnrealEd \(1998\) | ![](images/72b664cb-1904-4e1d-83af-34fb1579df1d.png)<br><br>Figure  \- Unreal 4\.26 \(2021\) |
 | :------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------: |
 
 PS: 
@@ -96,7 +96,7 @@ The Unreal official documentation is the "first stop" to start learning it\. Doe
 
 Before reading the documentation, I believe 99% of users install the Engine and try to "start doing things"\. I did the same and easily got lost\.
 
-![](images/86da5fc5-b7c5-4fdd-8eac-96e8e76a9fcb.jpg)
+![](images/5ee2f677-7bb0-4800-94dd-6b30bb99d505.png)
 
 Figure \- Lots f Templates
 
@@ -107,7 +107,7 @@ Figure \- Lots f Templates
 3. Ray Tracing Enabled
 4. Starter Content Pack
 
-![](images/91cd77a5-3e5c-4126-9280-85dee2d89d99.jpg)
+![](images/16961586-2ffa-4e54-86fa-6dfb9693f15e.png)
 
 
 
@@ -120,7 +120,7 @@ Figure \- Lots f Templates
 3. Ray Tracing Disabled
 4. Starter Content Pack
 
-![](images/568f257c-4654-4c0f-ba85-2570c63887f1.jpg)
+![](images/9e920899-61f9-4c84-9110-39a98dfcd3ad.png)
 
 ## The IDE
 
@@ -225,7 +225,7 @@ My first try to open Visual Studio for UE4 was not satisfactory:
     - Fade Out And Disable
     - Raise Event when touched by Player
 
-![](images/89c2d4c8-995d-4cb2-955c-c9acfdc28ec0.jpg)
+![](images/d8945bc5-ca73-49eb-a68d-6db77ea4041a.png)
 
 Figure  \- Collectible Bp Structure
 
@@ -235,7 +235,7 @@ Figure  \- Collectible Bp Structure
 
 Even for a simple prototype, it's good to look through some "set dressing" features\.With some research in the Unreal MarketPlace no "free" asset was found\. 
 
-![](images/4308ed4d-5b67-4ad4-b47c-2a815371b292.jpg)
+![](images/4beb8aef-e384-4006-aa3c-8f7d7b9342f4.png)
 
 Figure  \- MArketplace
 
@@ -249,11 +249,11 @@ So, some components were created\.
 
 These Bps can be added to an Actor and be reusable \(<span style="color:#4472C4">Designer Friendly</span><span style="color:#4472C4">\)</span> 
 
-![](images/279f24b7-d97a-42b8-96af-c1d5bf652a05.jpg)
+![](images/b1666c05-2601-4beb-bfa1-d2164f596877.png)
 
 Figure  \- A Tween Component with some parameter
 
-![](images/fe0bee25-3fcd-458d-897a-8cf774fbda3c.jpg)
+![](images/ba6419cc-8aa0-47f5-ad21-06ab31965aa8.gif)
 
 Figure  \- Tween Scale Elastic Ease Out Example
 
@@ -268,11 +268,11 @@ Figure  \- Tween Scale Elastic Ease Out Example
   - Raise Event when all items have been collected
     - Door Bp Open
 
-![](images/29ca4395-b636-4208-aa3c-c20a37e6b2ae.jpg)
+![](images/27c5cb76-bef8-4655-a44f-09617b482302.png)
 
 Figure  \- Collectable Manager
 
-![](images/d193a7ca-d4a1-42e1-8e3e-28133136e62f.jpg)
+![](images/86b5e212-d8e4-4b2a-8d29-dc1ff40725bb.gif)
 
 Figure  \- Getting Items and Opening the door
 
@@ -321,7 +321,7 @@ Figure  \- Getting Items and Opening the door
 
 - Added in the Run Animation, synchronized with the feet 
 
-![](images/9f75a7d6-3179-4a94-8100-4afd4779edb5.jpg)
+![](images/0c28cae6-4509-454d-b133-a5fa69ba0262.png)
 
 Figure  \- Built in Play Audio Event attached to the key frame
 
@@ -340,11 +340,11 @@ Figure  \- Built in Play Audio Event attached to the key frame
 - Plays the audio component attached to the door Bp
 
 
-![](images/607e0500-47de-4eff-8b98-88105c0a1336.jpg)
+![](images/3fe2279d-a81e-4351-893a-ec3c43025b36.png)
 
 Figure  \- Structure Example
 
-![](images/b0cd45b9-b5cb-4064-8247-02fd900da7c8.jpg)
+![](images/980760c4-1377-4034-acb1-3a6274a4554e.png)
 
 Figure  \- Play Audio using Event
 
@@ -356,7 +356,7 @@ Figure  \- Play Audio using Event
 - [https://www\.youtube\.com/watch?v=4b8Q6DwqEKc](https://www.youtube.com/watch?v=4b8Q6DwqEKc)
   - Video tutorial points some interesting fields to fill
 
-![](images/01a595fa-2c65-4e72-8708-7b94e0969574.jpg)
+![](images/ae784414-aa93-4e86-ad9c-e9474bb5bbe4.png)
 
 
 
@@ -372,13 +372,13 @@ Some reusable Components and Functions
 
 #### Fade Out And Disable Actor \(Component\)
 
-![](images/e231823d-1eb5-4746-891c-2e1790d68d34.jpg)
+![](images/de3fb33d-2141-469d-8f3c-9f42f9b28db2.png)
 
 Figure  \- Figure  \- Fadeout and Disable Actor Component Bp
 
 #### Disable Actor On Begin \(Component\)
 
-![](images/adbdae6f-aaf9-4182-a6cf-beda1151a97a.jpg)
+![](images/180ef23b-2571-425d-8677-4e7b98bcb38f.png)
 
 
 
@@ -386,7 +386,7 @@ Figure  \- Figure  \- Fadeout and Disable Actor Component Bp
 
 - AfterLevelLoaded\_Event is <span style="color:#FF0000">raised</span> somewhere else, is not the responsibility of this Bp Component to deal with it\.
 
-![](images/289f73a6-af48-465a-9a40-841c6e7051ac.jpg)
+![](images/8c404c31-ad66-4a69-be5c-e1c8e49be8d4.png)
 
 
 
@@ -410,7 +410,7 @@ Figure  \- Figure  \- Fadeout and Disable Actor Component Bp
 - Set Actor Enable Collision
 - Set Actor Hidden in Game
 
-![](images/143b6942-8a93-4f9a-9c8d-2bf598c8931a.jpg)
+![](images/9a8ad401-fb80-4376-a186-7fb88832e2d2.png)
 
 Figure  \- Blueprint flow
 
